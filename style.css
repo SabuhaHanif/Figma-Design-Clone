@@ -790,3 +790,211 @@ button {
     font-size: 14px;
     cursor: pointer;
 }
+@media (max-width: 1199px) {
+
+  .hero {
+    padding: 60px 6%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .image img {
+    max-height: 420px;
+  }
+
+  .services-grid {
+    max-width: 900px;
+  }
+
+  .footer-container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /* HEADER */
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 1.2rem;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    min-height: auto;
+    padding: 80px 5%;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .image {
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .shape1,
+  .shape2,
+  .hero-arc1,
+  .hero-arc2,
+  .circle-svg {
+    display: none;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* IMAGE ROW */
+  .pic-p {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+  }
+
+  /* LEADERSHIP */
+  .leader-card {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons a {
+    position: static;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  /* NAVBAR */
+  .nav-links {
+    display: none;
+  }
+
+  .btn-nav {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero-content h1 {
+    font-size: 1.9rem;
+    line-height: 1.3;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* SERVICES */
+  .services-section h2 {
+    font-size: 24px;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+
+  /* TESTIMONIALS */
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* CONTACT */
+  .contact-left h2 {
+    font-size: 24px;
+  }
+
+  .contact-left p {
+    font-size: 14px;
+  }
+
+  .contact-form form {
+    padding: 20px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 0 20px;
+  }
+
+  .footer-bottom {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .section-label,
+  .test,
+  .sub-heading {
+    font-size: 10px;
+  }
+
+  .services-section h2,
+  .title {
+    font-size: 22px;
+  }
+
+  .btn-primary,
+  .cta-btn,
+  .btn-contact {
+    width: 100%;
+    text-align: center;
+  }
+}
+
