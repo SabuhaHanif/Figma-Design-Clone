@@ -998,3 +998,85 @@ button {
   }
 }
 
+.hero,
+.pic-p,
+.leader-card {
+  height: auto !important;
+  min-height: unset !important;
+}
+
+@media (max-width: 768px) {
+
+  /* HERO FIX */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .image {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image img {
+    position: relative;
+    left: auto;
+    top: auto;
+    max-width: 90%;
+    height: auto;
+  }
+
+  /* REMOVE DECORATIONS */
+  .shape1,
+  .shape2,
+  .hero-arc1,
+  .hero-arc2,
+  .circle-svg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .pic-p {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .pic img {
+    width: 90%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container,
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
